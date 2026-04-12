@@ -40,3 +40,5 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`Server running on :${PORT}`));
 module.exports = app;
+console.log("CORRECT SERVER USED");
+// Lab 7 trigger - correct server file
